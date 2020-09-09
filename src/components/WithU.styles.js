@@ -167,4 +167,56 @@ const HomeSuccessPanelStyles = styled.div`
     }
 `;
 
-export { HeaderStyles, HomeStyles, HomePanelsStyles, HomeSuccessPanelStyles };
+const HomeMetricsPanelStyles = styled.div`
+    @media only screen and (min-width: 1115px) {
+        .home-metrics-panel {
+            margin: auto;
+            margin-top: 100px;
+            width: 75%;
+            min-width: 1000px;
+            max-width: 1115px;
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+        .home-metrics-panel-panels {
+            display: grid;
+        }
+        .home-metrics-panel-metric {
+            grid-column: 2 / span 2;
+            grid-row: 1 / span 1;
+        }
+        .grid-networking {
+            margin-left: -150px;
+            grid-column: 5 / span 2;
+            grid-row: 1 / span 2;
+            z-index: 1;
+        }
+        .grid-group {
+            grid-column: 1 / span 5;
+            grid-row: 2 / span 1;
+        }
+        .home-metrics-panel-networking-image {
+            width: 100%;
+        }
+        .home-metrics-panel-group-image {
+            width: 100%;
+            margin-top: 40px;
+        }
+        .home-metrics-panel-metric-row {
+            display: flex;
+        }
+        .home-metrics-metric-value {
+            font-size: 50px;
+            font-weight: 500;
+            line-height: 0.5;
+            margin-bottom: 60px;
+            margin-right: 140px;
+        }
+        .home-metrics-metric-metric {
+            font-size: 20px;
+            font-weight: 400;
+        }
+    }
+`;
+
+export { HeaderStyles, HomeStyles, HomePanelsStyles, HomeSuccessPanelStyles, HomeMetricsPanelStyles };
