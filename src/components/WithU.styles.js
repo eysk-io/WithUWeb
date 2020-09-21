@@ -219,4 +219,71 @@ const HomeMetricsPanelStyles = styled.div`
     }
 `;
 
-export { HeaderStyles, HomeStyles, HomePanelsStyles, HomeSuccessPanelStyles, HomeMetricsPanelStyles };
+const HomeEventsPanelStyles = styled.div`
+    @media only screen and (min-width: 1115px) {
+        .home-events-panel-header {
+            font-weight: 400;
+            font-size: 40px;
+            letter-spacing: -2px;
+            margin: auto;
+            margin-top: 2%;
+            margin-bottom: 8%;
+            width: 50%;
+            text-align: center;
+        }
+        .home-events-panel-carousel {
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+        }
+        .home-events-panel-carousel-list {
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+            padding: 0;
+        }
+        .home-events-panel-carousel-arrow {
+            margin-top: 115px;
+            color: #126a49;
+            width: 35px;
+            padding: 4px;
+            border-radius: 50px;
+            box-shadow: 0 4px 20px 0 rgba(0,0,0,0.12);
+            :hover {
+                transform: translateY(-3px);
+                box-shadow: 0 4px 20px 0 rgba(0,0,0,0.12);
+            }
+        }
+        .home-events-panel-carousel-event {
+            width: 30%;
+            height: 250px;
+            border-radius: 15px;
+            :hover {
+                transform: translateY(-3px);
+                box-shadow: 0 4px 20px 0 rgba(0,0,0,0.12);
+            }
+        }
+        .home-events-panel-carousel-next-event {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 39px;
+        }
+        .home-events-panel-carousel-next-event-button {
+            border: solid 2px #2fd98b;
+            background-color: white;
+            padding: 8px;
+            border-radius: 15px;
+        }
+    }
+    
+`;
+
+export {
+    HeaderStyles,
+    HomeStyles,
+    HomePanelsStyles,
+    HomeSuccessPanelStyles,
+    HomeMetricsPanelStyles,
+    HomeEventsPanelStyles
+};
