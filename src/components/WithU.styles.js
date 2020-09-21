@@ -374,6 +374,48 @@ const ApplyNowPanelStyles = styled.div`
     }
 `;
 
+const FooterStyles = styled.div`
+    @media only screen and (min-width: 1115px) {
+        .footer {
+            margin: auto;
+            width: 75%;
+            min-width: 1000px;
+            max-width: 1115px;
+            height: 250px;
+            background-color: #217753;
+            display: flex;
+            justify-content: space-between;
+        }
+        .footer-left {
+            margin-left: 200px;
+        }
+        .footer-right {
+            margin-right: 200px;
+            display: flex;
+        }
+        .footer-header {
+            color: white;
+            font-weight: 400;
+            margin-bottom: 5px;
+            margin-top: 50px;
+        }
+        .social-media-logo {
+            margin-right: 10px;
+        }
+        .designer-credit {
+            margin-top: 80px;
+            color: white;
+            font-size: 10px;
+        }
+        .footer-information-list {
+            margin-right: 40px;
+            padding: 0;
+            color: white;
+            font-size: 12px;
+        }
+    }
+`;
+
 export {
     HeaderStyles,
     HomeStyles,
@@ -383,4 +425,5 @@ export {
     HomeEventsPanelStyles,
     HomeTestimonialsPanelStyles,
     ApplyNowPanelStyles,
+    FooterStyles,
 };
