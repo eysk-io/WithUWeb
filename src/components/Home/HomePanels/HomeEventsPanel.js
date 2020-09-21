@@ -39,14 +39,9 @@ const HomeEventsPanel = () => {
                         size={'2x'}
                     />
                 </div>
-                <div className='home-events-panel-carousel-next-event'>
-                    <button className='home-events-panel-carousel-next-event-button'>Find the next event</button>
+                <div className='home-events-panel-carousel-next-event home-panel-button-wrapper'>
+                    <button className='home-events-panel-carousel-next-event-button home-panel-button'>Find the next event</button>
                 </div>
-
-                {/* Centered, width approximately 1/4 of component, font approx same size as success panel h2 */}
-                {/* arrow on left side, taken from font awesome */}
-                {/* list of three events, flex-direction: row */}
-                {/* arrow on right side, taken from font awesome */}
             </section>
         </HomeEventsPanelStyles >
     );

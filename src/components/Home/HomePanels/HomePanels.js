@@ -3,6 +3,7 @@ import HomeSuccessPanel from './HomeSuccessPanel'
 import { HomePanelsStyles } from '../../WithU.styles';
 import HomeMetricsPanel from './HomeMetricsPanel';
 import HomeEventsPanel from './HomeEventsPanel';
+import HomeTestimonialsPanel from './HomeTestimonialsPanel/HomeTestimonialsPanel';
 
 const HomePanels = () => {
     return (
@@ -11,6 +12,7 @@ const HomePanels = () => {
                 <HomeSuccessPanel />
                 <HomeMetricsPanel />
                 <HomeEventsPanel />
+                <HomeTestimonialsPanel />
             </section>
         </HomePanelsStyles>
     );
