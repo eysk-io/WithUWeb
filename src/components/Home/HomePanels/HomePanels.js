@@ -4,6 +4,7 @@ import { HomePanelsStyles } from '../../WithU.styles';
 import HomeMetricsPanel from './HomeMetricsPanel';
 import HomeEventsPanel from './HomeEventsPanel';
 import HomeTestimonialsPanel from './HomeTestimonialsPanel/HomeTestimonialsPanel';
+import ApplyNowPanel from '../../Panels/ApplyNowPanel';
 
 const HomePanels = () => {
     return (
@@ -13,6 +14,9 @@ const HomePanels = () => {
                 <HomeMetricsPanel />
                 <HomeEventsPanel />
                 <HomeTestimonialsPanel />
+                <ApplyNowPanel
+                    pageClassName={'home-panel'}
+                />
             </section>
         </HomePanelsStyles>
     );

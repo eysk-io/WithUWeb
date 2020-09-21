@@ -30,7 +30,6 @@ const HomeTestimonialsPanel = () => {
                 <div className='home-testimonials-panel-carousel-next-event home-panel-button-wrapper'>
                     <button className='home-testimonials-panel-carousel-next-event-button home-panel-button'>View more members</button>
                 </div>
-
             </section>
         </HomeTestimonialsPanelStyles >
     );

@@ -340,6 +340,40 @@ const HomeTestimonialsPanelStyles = styled.div`
     }
 `;
 
+const ApplyNowPanelStyles = styled.div`
+    @media only screen and (min-width: 1115px) {
+        .apply-now-panel {
+            margin-top: 100px;
+            padding-bottom: 300px;
+        }
+        .apply-now-panel-title {
+            font-weight: 400;
+            font-size: 30px;
+            letter-spacing: -2px;
+            margin: auto;
+            margin-top: 4%;
+            margin-bottom: 2%;
+            width: 50%;
+            text-align: center;
+        }
+        .apply-now-panel-button-wrapper {
+            display: flex;
+            justify-content: space-around;
+        }
+        .apply-now-panel-button {
+            color: white;
+            font-size: 20px;
+            border: solid 2px #2fd98b;
+            background-color: #2fd98b;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            padding-left: 32px;
+            padding-right: 32px;
+            border-radius: 50px;
+        }
+    }
+`;
+
 export {
     HeaderStyles,
     HomeStyles,
@@ -348,4 +382,5 @@ export {
     HomeMetricsPanelStyles,
     HomeEventsPanelStyles,
     HomeTestimonialsPanelStyles,
+    ApplyNowPanelStyles,
 };
